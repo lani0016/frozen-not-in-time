@@ -58,3 +58,35 @@ img {
   transform: translateY(-200em);
   animation: icecream 1s linear forwards;
 }
+
+.cone {
+  position: absolute;
+  top: 290px;
+  right: 7.5em;
+  transform: translateY(-200em);
+  animation: icecream 1s linear forwards;
+}
+
+.chocolate {
+  position: absolute;
+  top: 120px;
+  right: 7.5em;
+  transform: translateY(-200em);
+  animation: icecream 1s linear forwards;
+}
+
+.vanilla {
+  position: absolute;
+  top: 70px;
+  right: 7.5em;
+  transform: translateY(-200em);
+  animation: icecream 1s linear forwards;
+}
+
+.cherry {
+  position: absolute;
+  top: 30px;
+  right: 8.5em;
+  transform: translateY(-200em);
+  animation: icecream 1s linear forwards;
+}
