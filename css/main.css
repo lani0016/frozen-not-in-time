@@ -56,7 +56,7 @@ img {
   top: 190px;
   right: 8em;
   transform: translateY(-200em);
-  animation: icecream 1s linear forwards;
+  animation: ice-cream 1s linear forwards;
 }
 
 .cone {
@@ -64,7 +64,7 @@ img {
   top: 290px;
   right: 7.5em;
   transform: translateY(-200em);
-  animation: icecream 1s linear forwards;
+  animation: ice-cream 1s linear forwards;
 }
 
 .chocolate {
@@ -72,7 +72,7 @@ img {
   top: 120px;
   right: 7.5em;
   transform: translateY(-200em);
-  animation: icecream 1s linear forwards;
+  animation: ice-cream 1s linear forwards;
 }
 
 .vanilla {
@@ -80,7 +80,7 @@ img {
   top: 70px;
   right: 7.5em;
   transform: translateY(-200em);
-  animation: icecream 1s linear forwards;
+  animation: ice-cream 1s linear forwards;
 }
 
 .cherry {
@@ -88,5 +88,35 @@ img {
   top: 30px;
   right: 8.5em;
   transform: translateY(-200em);
-  animation: icecream 1s linear forwards;
+  animation: ice-cream 1s linear forwards;
+}
+
+@keyframes banner-text {
+
+  0% {
+    opacity: 0;
+    filter: blur(5px);
+  }
+
+  40% {
+    opacity: 50;
+    filter: blur(5px);
+  }
+
+  100% {
+    opacity: 100;
+  }
+
+}
+
+@keyframes ice-cream {
+
+  0% {
+    transform: translateY(-200em);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+
 }
